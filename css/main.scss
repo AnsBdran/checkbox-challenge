@@ -83,7 +83,6 @@ main {
                     bottom: 0px;
                 }
                 &:hover::after {
-                    // border: 2px solid red;
                     background-color: lighten($color: $color, $amount: 30%);
                 }
                 &:checked::after {
@@ -97,15 +96,12 @@ main {
 footer {
     margin-top: $md-mg;
     p {
-        // text-align: center;
-
         display: flex;
         justify-content: center;
         align-items: center;
         img {
             display: inline;
             width: 25px;
-            // border: 2px solid red;
         }
     }
 }
