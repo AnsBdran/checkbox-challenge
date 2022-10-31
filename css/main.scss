@@ -19,7 +19,7 @@ main {
 
 .checkBoxes {
     margin-top: $lg-mg;
-    @include flex;
+    @include flex(center);
     flex-wrap: wrap;
     text-align: center;
     gap: 1rem;
