@@ -87,6 +87,7 @@ main {
   flex-wrap: wrap;
   text-align: center;
   gap: 1rem;
+  padding: 0.4em 0.8em;
 }
 .checkBoxes .checkBox {
   display: flex;
@@ -160,7 +161,7 @@ main {
 }
 
 footer {
-  margin-top: 1.5rem;
+  margin: 2rem 0;
 }
 footer p {
   display: flex;

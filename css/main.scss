@@ -23,7 +23,7 @@ main {
     flex-wrap: wrap;
     text-align: center;
     gap: 1rem;
-
+    padding: $sm-pd;
     //normal styling
     .checkBox {
         @include center;
@@ -94,7 +94,7 @@ main {
 }
 
 footer {
-    margin-top: $md-mg;
+    margin: $lg-mg 0;
     p {
         display: flex;
         justify-content: center;
