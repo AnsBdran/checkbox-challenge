@@ -133,9 +133,10 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 3px solid #e0e0e1;
 }
 .checkBoxes .checkBox__check:has(:checked) {
-  border: 3px solid #5c48f1;
+  border-color: #5c48f1;
 }
 .checkBoxes .checkBox__check .check {
   display: flex;
@@ -144,14 +145,13 @@ main {
   background: none;
   border: none;
   position: relative;
+  appearance: none;
 }
 .checkBoxes .checkBox__check .check::after {
   content: "";
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
 }
 .checkBoxes .checkBox__check .check:hover::after {
   background-color: #dbd6fc;
